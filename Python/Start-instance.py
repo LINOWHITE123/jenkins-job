@@ -43,6 +43,6 @@ def start_ec2_instances(vpc_id, exclude_instance_id, region='us-east-1'):
 if __name__ == "__main__":
     VPC_ID = "vpc-0abc1234def56789"  # Replace with your VPC ID
     EXCLUDE_INSTANCE_ID = "vi-0193957f72e6b01ee"  # Replace with the instance ID to exclude
-    REGION = "us-east-1"  # Replace with your region if different
+    REGION = "us-east-2"  # Replace with your region if different
 
     start_ec2_instances(VPC_ID, EXCLUDE_INSTANCE_ID, REGION)
